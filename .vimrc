@@ -10,6 +10,7 @@ set breakindent
 set cursorline
 set splitbelow
 set hlsearch
+set relativenumber
 
 let mapleader=" "
 call plug#begin('~/.vim/plugged')
@@ -33,6 +34,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'EgZvor/vim-black'
+Plug 'justmao945/vim-clang'
 
 call plug#end()
 autocmd BufRead *.py setlocal colorcolumn=0
