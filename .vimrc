@@ -35,6 +35,8 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'EgZvor/vim-black'
 Plug 'justmao945/vim-clang'
+Plug 'markvincze/panda-vim'
+
 
 call plug#end()
 autocmd BufRead *.py setlocal colorcolumn=0
@@ -71,7 +73,8 @@ set backspace=indent,eol,start
 set t_Co=256  
 "set background=dark
 "colorscheme PaperColor
-colorscheme material
+"colorscheme material
 "colorscheme gruvbox
+colorscheme panda
 
 
