@@ -36,7 +36,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'EgZvor/vim-black'
 Plug 'justmao945/vim-clang'
 Plug 'markvincze/panda-vim'
-
+Plug 'williamboman/mason.nvim'
 
 call plug#end()
 autocmd BufRead *.py setlocal colorcolumn=0
